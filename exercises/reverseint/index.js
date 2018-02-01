@@ -16,14 +16,10 @@ function reverseInt(n) {
 
   if (revNum.charAt(revNum.length - 1) === "-") {
     revNum = "-" + revNum.slice(0, revNum.length - 1);
-    console.log(parseInt(revNum));
     return parseInt(revNum);
   } else {
-    console.log(revNum);
     return parseInt(revNum);
   }
-
-  console.log(revNum);
 }
 
 reverseInt(123);
